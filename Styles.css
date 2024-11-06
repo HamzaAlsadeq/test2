@@ -1,118 +1,40 @@
-/* تنسيق عام للصفحات */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+#navBar{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
 
-body {
-    background-color: #87CEEB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+#navList{
+    list-style: none;
 }
 
-.container {
-    width: 300px;
-    padding: 20px;
-    background-color: #5DADE2;
-    border-radius: 10px;
-    text-align: center;
-    position: relative;
+#navList>li{
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 50px;
 }
 
-/* تنسيق للعنوان */
-header {
-    background-color: #3498DB;
-    padding: 10px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    width: 80%;
-    margin: 0 auto 15px auto;
+#logo{
+    width: 50px;
+    border-radius: 100px;
 }
 
-/* تنسيق محتوى الصفحة الرئيسية */
-.content {
-   /* display: flex;
-    flex-direction: row;
-    align-items: flex-start;*/
-    align-items: center;
-
+#logo:hover{
+    width: 200px;
 }
 
-.image-container {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.image {
-    width: 60px;
-    height: 60px;
-    background-color: #E5E8E8;
-    border-radius: 10px;
-}
-
-.info {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 10px;
-}
-
-.info p {
-    background-color: #AED6F1;
-    padding: 5px;
-    margin: 5px 0;
-    border-radius: 5px;
-    width: 100%;
-    text-align: center;
-}
-
-.skills-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    padding: 5px 15px;
-    background-color: #1ABC9C;
-    color: white;
-    border-radius: 20px;
+.link{
     text-decoration: none;
-}
-
-.skills-btn:hover {
-    background-color: #16A085;
-}
-
-/* تنسيق صفحة المهارات */
-.back-btn {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 5px 10px;
-    background-color: #1ABC9C;
     color: white;
-    border-radius: 20px;
-    text-decoration: none;
 }
 
-.back-btn:hover {
-    background-color: #16A085;
+.active{
+    color: green;
 }
 
-.skills-content {
-    background-color: #AED6F1;
-    padding: 20px;
-    border-radius: 10px;
-    color: #2E86C1;
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 20px;
+.link:hover{
+    color: red;
 }
+
+
+
