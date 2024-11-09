@@ -37,4 +37,37 @@
 }
 
 
+#Testp{
+    color: aqua;
+    background-color: black;
+    padding: 10px;
+    margin: 50px;
+    border: 10px gray solid;
+}
 
+#button{
+    color: blue;
+    background-color: cyan;
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    border: 5px black solid;
+}
+
+#FirstDiv>h1{
+    color: blue;
+}
+
+#SecoundDiv>h1{
+    color: green;
+}
+
+#Contener{
+    text-align: center;    
+    background-color: aquamarine;
+}
+
+.NewCinter{
+    display: inline-block;
+    width: 30%;
+}
